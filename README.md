@@ -1,15 +1,47 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Tado Hopsky
-===================================================================================================================================
+```java
+public class GitHubProfile {
+    
+    // About me
+    private String name = "Tado Hopsky";
+    private String title = "Java Backend Developer | Open-Source Enthusiast";
+    private String[] skills = {"Java","Python", "Golang", "HTML", "CSS", "Git", "SQL"};
+    
+    // Contact information
+    private String email = "frolov.dev1375@yandex.ru";
+    private String tekegram = "@tadohopsky";
+    private String github = "https://github.com/TadoHopsky";
 
-Java Backend Developer
-----------------------
+    public GitHubProfile() {
+        printWelcomeMessage();
+        showSkills();
+        showProjects();
+        showContactInfo();
+    }
 
-I have been studying programming in Java for about a year, and also know HTML | CSS | Python (basic level) | GOlang (basic level).
+    // Print welcome message
+    private void printWelcomeMessage() {
+        System.out.println("Hello, World! Welcome to my GitHub profile.");
+        System.out.println("I am a passionate developer always eager to learn new technologies.");
+    }
 
-*   🌍  I'm based in Russia | Tomsk
-*   ✉️  You can contact me at [frolov.dev1375@gmail.com](mailto:frolov.dev1375@gmail.com)
-*   🧠  I'm learning Spring framework### Skills 
-<p align="left">
-<a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a><a href="https://go.dev/doc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg" width="36" height="36" alt="Go" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a><a href="https://apple.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/macos-colored.svg" width="36" height="36" alt="MacOS" /></a>
-                    </p>
-                
+    // Display list of skills
+    private void showSkills() {
+        System.out.println("\n🛠️ Skills:");
+        for (String skill : skills) {
+            System.out.println("- " + skill);
+        }
+    }
+
+    // Display contact information
+    private void showContactInfo() {
+        System.out.println("\n📬 Contact Me:");
+        System.out.println("Email: " + email);
+        System.out.println("LinkedIn: " + linkedin);
+        System.out.println("GitHub: " + github);
+    }
+
+    // Main method to run the program (i.e., the profile!)
+    public static void main(String[] args) {
+        new GitHubProfile();
+    }
+}
