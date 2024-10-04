@@ -9,7 +9,7 @@ public class GitHubProfile {
     private String[] skills = {"Java","Python", "Golang", "HTML", "CSS", "Git", "SQL"};
     
     private String email = "frolov.dev1375@yandex.ru";
-    private String tekegram = "@tadohopsky";
+    private String telegram = "@tadohopsky";
     private String vk = "https://vk.com/under_the_bench";
     private String github = "https://github.com/TadoHopsky";
 
@@ -17,7 +17,6 @@ public class GitHubProfile {
         printWelcomeMessage();
     }
 
-    // Print welcome message
     private void printWelcomeMessage() {
         System.out.println("Hello, World! Welcome to my GitHub profile.");
         System.out.println("I am a passionate developer always eager to learn new technologies.");
