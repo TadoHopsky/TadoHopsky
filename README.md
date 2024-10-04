@@ -3,13 +3,11 @@
 
 ```java
 public class GitHubProfile {
-    
-    // About me
+
     private String name = "Tado Hopsky";
     private String title = "Java Backend Developer | Open-Source Enthusiast";
     private String[] skills = {"Java","Python", "Golang", "HTML", "CSS", "Git", "SQL"};
     
-    // Contact information
     private String email = "frolov.dev1375@yandex.ru";
     private String tekegram = "@tadohopsky";
     private String vk = "https://vk.com/under_the_bench";
@@ -17,9 +15,6 @@ public class GitHubProfile {
 
     public GitHubProfile() {
         printWelcomeMessage();
-        showSkills();
-        showProjects();
-        showContactInfo();
     }
 
     // Print welcome message
