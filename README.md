@@ -4,9 +4,9 @@
 ```java
 public class GitHubProfile {
 
-    private String name = "Tado Hopsky";
+    private String name = "Arkady Frolov";
     private String title = "Java Backend Developer | Open-Source Enthusiast";
-    private String[] skills = {"Java","Python", "Golang", "HTML", "CSS", "Git", "SQL"};
+    private String[] skills = {"Java", "Python", "Golang", "HTML", "CSS", "Git", "SQL"};
     
     private String email = "frolov.dev1375@yandex.ru";
     private String telegram = "@tadohopsky";
