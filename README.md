@@ -5,8 +5,9 @@
 public class GitHubProfile {
 
     private String name = "Arkady Frolov";
-    private String title = "Java Backend Developer | Open-Source Enthusiast";
-    private String[] skills = {"Java", "Python", "Golang", "HTML", "CSS", "Git", "SQL"};
+    private String title = "Java Backend Developer;
+    private String[] skills = {"Java", "Python", "Golang",
+                                 "HTML", "CSS", "Git", "SQL"};
     
     private String email = "frolov.dev1375@yandex.ru";
     private String telegram = "@tadohopsky";
@@ -19,7 +20,8 @@ public class GitHubProfile {
 
     private void printWelcomeMessage() {
         System.out.println("Hello, World! Welcome to my GitHub profile.");
-        System.out.println("I am a passionate developer always eager to learn new technologies.");
+        System.out.println("I am a passionate developer always
+                                     eager to learn new technologies.");
     }
 ```
 <img src = "https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif"/>
