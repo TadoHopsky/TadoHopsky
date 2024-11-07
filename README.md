@@ -9,10 +9,10 @@ public class GitHubProfile {
     private String[] skills = {"Java", "Python", "Golang",
                                  "HTML", "CSS", "Git", "SQL"};
     
-    private String email = "frolov.dev1375@yandex.ru";
-    private String telegram = "@tadohopsky";
-    private String vk = "https://vk.com/under_the_bench";
-    private String github = "https://github.com/TadoHopsky";
+    private final String email = "frolov.dev1375@yandex.ru";
+    private final String telegram = "@tadohopsky";
+    private final String vk = "https://vk.com/under_the_bench";
+    private final String github = "https://github.com/TadoHopsky";
 
     public GitHubProfile() {
         printWelcomeMessage();
