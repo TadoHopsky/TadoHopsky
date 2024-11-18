@@ -19,6 +19,7 @@ public class GitHubProfile {
     private void printWelcomeMessage() {
         System.out.println("Hello, World! Welcome
                             to my GitHub profile.");
+
         System.out.println("I am a passionate developer always
                             eager to learn new technologies.");
     }
