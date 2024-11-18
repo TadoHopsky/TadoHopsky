@@ -5,9 +5,8 @@
 
 public class GitHubProfile {
 
-    private String name = "Arkady Frolov";
-    private String title = "Java Backend Developer;
-    
+    private final String name = "Arkady Frolov";
+    private final String title = "Java Backend Developer;
     private final String email = "frolov.dev1375@yandex.ru";
     private final String telegram = "@tadohopsky";
     private final String vk = "https://vk.com/under_the_bench";
