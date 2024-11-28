@@ -1,7 +1,6 @@
 # 👨‍💻 public class GitHubProfile { ыловатфдылжв
 
 ![Typing animation](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=blue&center=true&vCenter=true&width=700&lines=public+class+GitHubProfile+%7B;...+%7D)
-
 ```java
 public class GitHubProfile {
     public static void main(String[] args) {
