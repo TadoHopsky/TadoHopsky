@@ -1,108 +1,16 @@
-<!-- README.md -->
-<h1 align="center">✨ Welcome to My GitHub ✨</h1>
+<img src = "https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-Spring%20Boot-green?style=for-the-badge" alt="Java">
-  <img src="https://img.shields.io/badge/Thymeleaf-Templates-blue?style=for-the-badge" alt="Thymeleaf">
-  <img src="https://img.shields.io/badge/Docker-Containers-blue?style=for-the-badge" alt="Docker">
-</p>
 
-<br>
 
-<div align="center">
-  <pre style="text-align: left; background-color: #1e1e1e; color: #dcdcdc; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 16px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); width: 80%;">
-    <code id="animated-code">
-public class GitHubProfile {
+![Description of GIF](assets/animation.gif)
 
-    public static void main(String[] args) {
-        Developer me = new Developer(
-            "Your Name",
-            List.of("Java", "Spring Boot", "Thymeleaf", "Docker"),
-            "Creating elegant and scalable solutions"
-        );
 
-        me.displaySkills();
-        me.displayProjects();
-        me.displayContact();
-    }
 
-    static class Developer {
-        private String name;
-        private List<String> skills;
-        private String mission;
-
-        public Developer(String name, List<String> skills, String mission) {
-            this.name = name;
-            this.skills = skills;
-            this.mission = mission;
-        }
-
-        public void displaySkills() {
-            System.out.println("🛠️ Skills: " + skills);
-        }
-
-        public void displayProjects() {
-            System.out.println("\n🌟 Featured Projects:");
-            System.out.println("- Spring Boot API");
-            System.out.println("- Thymeleaf Dashboard");
-            System.out.println("- Java Algorithms");
-        }
-
-        public void displayContact() {
-            System.out.println("\n📫 Contact me:");
-            System.out.println("- Email: yourname@example.com");
-            System.out.println("- LinkedIn: linkedin.com/in/yourname");
-            System.out.println("- Blog: yourwebsite.com");
-        }
-    }
-}
-    </code>
-  </pre>
-</div>
-
-<script>
-const codeLines = `
-public class GitHubProfile {
-
-    public static void main(String[] args) {
-        Developer me = new Developer(
-            "Your Name",
-            List.of("Java", "Spring Boot", "Thymeleaf", "Docker"),
-            "Creating elegant and scalable solutions"
-        );
-
-        me.displaySkills();
-        me.displayProjects();
-        me.displayContact();
-    }
-
-    static class Developer {
-        private String name;
-        private List<String> skills;
-        private String mission;
-
-        public Developer(String name, List<String> skills, String mission) {
-            this.name = name;
-            this.skills = skills;
-            this.mission = mission;
-        }
-
-        public void displaySkills() {
-            System.out.println("🛠️ Skills: " + skills);
-        }
-
-        public void displayProjects() {
-            System.out.println("\\n🌟 Featured Projects:");
-            System.out.println("- Spring Boot API");
-            System.out.println("- Thymeleaf Dashboard");
-            System.out.println("- Java Algorithms");
-        }
-
-        public void displayContact() {
-            System.out.println("\\n📫 Contact me:");
-            System.out.println("- Email: yourname@example.com");
-            System.out.println("- LinkedIn: linkedin.com/in/yourname");
-            System.out.println("- Blog: yourwebsite.com");
-        }
-    }
-}`;
+<img src = "https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif"/>
+<p align="center"> <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="50" height="50" alt="Java" /></a>   &ensp;  
+    <a href="https://go.dev/doc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg" width="50" height="50" alt="Go" /></a> 
+    &ensp;    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="50" height="50" alt="Git" /></a>  
+    &ensp;   <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="50" height="50" alt="HTML5" /></a>
+    &ensp;   <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="50" height="50" alt="CSS3" /></a>   
+    &ensp;   <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="50" height="36" alt="PostgreSQL" /></a> 
+    &ensp; 
