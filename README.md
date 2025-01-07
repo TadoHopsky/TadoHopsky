@@ -1,4 +1,4 @@
-<h2 align="center">Hi 👋<br> My name is Arkadiy Frolov and I'm a Java Developer.</h2>
+<h2 align="center">Hi 👋<br> My name is Arkady Frolov and I'm a Java Developer.</h2>
 
 ###
 
